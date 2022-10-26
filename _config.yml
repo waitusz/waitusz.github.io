@@ -51,7 +51,7 @@ yat:
 # sitemap: false
 
 # 如果要更改站点语言，可以设置 lang 选项
-# lang: "zh-CN"  # 默认语言是 cn
+ lang: "zh-CN"  # 默认语言是 cn
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -115,16 +115,16 @@ yat:
 #
 # night_mode: "auto"
 
-# Code badge setting
-# You can enable or disable the code badge and so on
-# code_badge:
-#   enabled: "true"
-#   color: "#fff"
-#   background_color: "#ff4e00"
-#   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
+# 代码标记设置
+# 您可以启用或禁用代码标记等
+ code_badge:
+   enabled: "true"
+   color: "#fff"
+   background_color: "#ff4e00"
+   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
+# 如果您只想链接标题中的特定页面，请取消注释
+# 这并按顺序添加页面的路径，因为它们应该显示
 # header_pages:
 #   - index.html
 #   - archives.html
@@ -132,28 +132,27 @@ yat:
 #   - tags.html
 #   - about.md
 
-# Page default value
+# 页面默认值
 # defaults:
 #   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+#     heading: "你很棒的标题"
+#     subheading: "你很棒的副标题"
+#     banner: "你的图片网址"
 
 # Banner 默认设置
-# These banner settings are for global banner default, but you can also
-# config it by the front matter for one specific post
+# 这些横幅设置用于全局横幅默认设置，但您也可以通过前面的内容为特定帖子配置它
 # banner:
 #   video: null             # Video banner source
 #   loop: true              # Video loop
 #   volume: 0               # Video volume (100% is 1.0)
 #   start_at: 0             # Video start time
-#   image: null             # Image banner source
-#   opacity: 1.0            # Banner opacity (100% is 1.0)
-#   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
-#   height: "640px"         # Banner default height
-#   min_height: null        # Banner minium height
-#   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
-#   subheading_style: null  # Custom subheading style (e.g. color: gold)
+#   image: null             # 图片banner来源
+#   opacity: 1.0            # Banner 不透明度 (100% is 1.0)
+#   background: "rgba(0, 0, 0, 0.8)"  # Banner 背景（可能是图像）
+#   height: "640px"         # Banner 默认高度
+#   min_height: null        # Banner 最小高度
+#   heading_style: null     # 自定义标题样式 (e.g. "font-weight: bold; text-decoration: underline")
+#   subheading_style: null  # 自定义副标题样式 (e.g. color: gold)
 
 # Excerpt size setting 摘录大小设置
 # excerpt_size: 350
@@ -163,15 +162,15 @@ yat:
 
 # Disqus 评论
 # disqus:
-#   shortname: "Your Disqus username"
+#   shortname: "您的 Disqus 用户名"
 
 # Gitment 评论
 # gitment:
-#   username: "Your GitHub username"
-#   repo: "The repo to store comments"
-#   client_id: "Your client ID"
-#   client_secret: "Your client secret"
-#   redirect_uri: "Your redirect url"   # If you use a custom domain name
+#   username: "您的 GitHub 用户名"
+#   repo: "存储评论的仓库"
+#   client_id: "您的客户 ID"
+#   client_secret: "您的客户秘密"
+#   redirect_uri: "您的重定向网址"   # 如果您使用自定义域名
 
 # 构建设置
 # highlighter: none
