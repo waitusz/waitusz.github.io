@@ -19,7 +19,7 @@
 # 您将看到它们通过 {{ site.title }}, {{ site.email }} 等方式访问.
 # 您可以创建任何您想要的自定义变量，并且可以通过 {{ site.myvariable }} 在模板中访问它们。
 # theme: owner/name --> Don't forget to remove/comment the gem-based theme option
-# theme: jekyll-theme-yat
+theme: jekyll-theme-yat
 remote_theme: "jeffreytse/jekyll-theme-yat"
 #
 title: waitusz 博客
@@ -139,7 +139,7 @@ yat:
 #     subheading: "Your awesome subheading"
 #     banner: "Your image url"
 
-# Banner default settings
+# Banner 默认设置
 # These banner settings are for global banner default, but you can also
 # config it by the front matter for one specific post
 # banner:
@@ -155,17 +155,17 @@ yat:
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
 
-# Excerpt size setting
+# Excerpt size setting 摘录大小设置
 # excerpt_size: 350
 
-# Pagination setting
+# Pagination setting 分页设置
 # paginate: 5
 
-# Disqus comments
+# Disqus 评论
 # disqus:
 #   shortname: "Your Disqus username"
 
-# Gitment comments
+# Gitment 评论
 # gitment:
 #   username: "Your GitHub username"
 #   repo: "The repo to store comments"
@@ -173,7 +173,7 @@ yat:
 #   client_secret: "Your client secret"
 #   redirect_uri: "Your redirect url"   # If you use a custom domain name
 
-# Build settings
+# 构建设置
 # highlighter: none
 markdown: kramdown
 kmarkdown:
