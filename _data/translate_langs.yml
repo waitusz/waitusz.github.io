@@ -1,6 +1,10 @@
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
 
+- lang: zh-CN
+  img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+  text: Chinese(Simple)
+
 - lang: en
   img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
   text: English
@@ -8,10 +12,6 @@
 - lang: fr
   img: https://cdn.countryflags.com/thumbs/france/flag-400.png
   text: French
-
-- lang: zh-CN
-  img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-  text: Chinese(Simple)
 
 - lang: ja
   img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
