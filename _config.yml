@@ -1,61 +1,57 @@
 # Welcome to Jekyll!
 #
-# About Theme
+# 关于主题
 #
-# Yet another theme for elegant writers with modern flat style and beautiful
-# night/dark mode.
+# 优雅作家的另一个主题，具有现代扁平风格和美丽的夜间/黑暗模式.
 #
-# Website: https://github.com/jeffreytse/jekyll-theme-yat
+# 网站: https://github.com/jeffreytse/jekyll-theme-yat
 #
-# You can do anything you want, including projects for your clients, as long
-# as you mention an attribution back (credit links in footer or project).
-# See the LICENCE file.
+# 你可以做任何你想做的事情，包括为你的客户做的项目，只要你提到一个归属（在页脚或项目中创建链接）
+# 查看许可证文件.
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
+# 此配置文件适用于影响整个博客的设置，您应该设置一次并且之后很少编辑的值。.
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you
-# use 'bundle exec jekyll serve'. If you change this file, please restart
-# the server process.
+# 出于技术原因，当您使用“bundle exec jekyll serve”时，*不会*自动重新加载此文件。
+# 如果您更改此文件，请重新启动服务器进程。.
 #
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-theme: jekyll-theme-yat
-title: waitusz blog
-email: your-email@domain.com
-author: GitHub User
-copyright: Copyright © 1970-2010
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# 网站设置
+# 这些用于个性化您的新网站. 如果您查看 HTML 文件,
+# 您将看到它们通过 {{ site.title }}, {{ site.email }} 等方式访问.
+# 您可以创建任何您想要的自定义变量，并且可以通过 {{ site.myvariable }} 在模板中访问它们。
+# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
+# theme: jekyll-theme-yat
+remote_theme: "jeffreytse/jekyll-theme-yat"
+#
+title: waitusz 博客
+email: solon.sz@gmail.com
+author: waitusz
+copyright: Copyright © 2022
+description: >- # 这意味着在“baseurl:”之前忽略换行符
+  在这里为您的新网站写一个很棒的描述。您可以在 _config.yml 中编辑此行。它将出现在您的文档头部元数据（用于 Google 搜索结果）和您的 feed.xml 站点描述中.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "" # the favicon for your site
+baseurl: "" # 您网站的子路径，例如 /blog
+url: "" # 您网站的基本主机名和协议，例如 http://example.com
+favicon: "" # 您网站的图标
 
-# Yat date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+# Yat 日期格式
+# 如果你想自定义，请参考 https://shopify.github.io/liquid/filters/date/
 yat:
   date_format: "%b %d, %Y"
 
-# If you want more debug log, you can set true
+# 如果你想要更多的调试日志，你可以设置 true
 # debug: false
 
-# If you don't want transparent header, you can set false
+# 如果你不想要透明标题，你可以设置 false
 # header_transparent: true
 
-# Google analytics
+# Google 分析
 # google_analytics: [Tracking ID]
 
-# If you want to generate website sitemap, you can set true
+# 如果要生成网站站点地图，可以设置 true
 # sitemap: false
 
-# If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+# 如果要更改站点语言，可以设置 lang 选项
+# lang: "zh-CN"  # 默认语言是 cn
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -84,8 +80,8 @@ yat:
 #     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
 #     text: Russian
 
-# You can choose a theme color
-# Default theme colors as below:
+# 您可以选择主题颜色
+# 默认主题颜色如下:
 # coolblack: #090a0b
 # spacegrey: #353535
 # snowwhite: #ffffff
